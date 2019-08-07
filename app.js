@@ -94,10 +94,10 @@ app.use('/api',require('./routes/product'));
 app.use('/api/auth',require('./routes/auth'));
 
 if(process.env.NODE_ENV === 'production'){
-  app.use(express.static('client/build'));
+  app.use(express.static('./frontend/build'));
   app.use((req, res, next) => {
     // If no routes match, send them the React HTML.
-    res.sendFile(__dirname + "/public/index.html");
+    res.sendFile(__dirname + "./public/index.html");
   });
 }
 
