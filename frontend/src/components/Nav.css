@@ -1,0 +1,19 @@
+h2{
+    color: white;
+    font-size: 27px;
+    margin-top: 1px;
+}
+
+.nav {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(0, 188, 212);
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    border-radius: 0px;
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: space-between;
+    padding: 1%;
+  }
